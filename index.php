@@ -1,7 +1,6 @@
+<?php include "functions.php" ?>
 <?php 
-	$activities = ['foam roll', 'sun salutation(s)', 'visit whole foods', 'walk around the block'];
-	$random = rand(0, (count($activities) -1));
-	$suggestion = $activities[$random];
+	
 ?>
 
 <!doctype html>
@@ -10,6 +9,7 @@
 	    <!-- Required meta tags -->
 	    <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    
 	    <!-- Bootstrap CSS -->
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	    <title>Hourly | z0rs</title>
@@ -42,6 +42,7 @@
 				?>
 			</div>
 		</div>
+
 	</div>
 
 
