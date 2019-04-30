@@ -1,6 +1,6 @@
 <?php include "functions.php" ?>
 <?php 
-	
+
 ?>
 
 <!doctype html>
@@ -42,6 +42,19 @@
 				?>
 			</div>
 		</div>
+
+
+
+		<!-- <div class="row" id="test-div">
+			<div class="col">
+				<?php 
+				echo $date . "<br>"; 
+				echo $time . "<br>";
+				echo $display_date . "<br>";
+				echo $date . "<br>";
+				?>
+			</div>
+		</div> -->
 
 	</div>
 

@@ -14,7 +14,11 @@
 	}
 
 
-	$date = date()
+	$date = date("Y-m-d");
+	$display_date = date("l, n/j/y");
+	$time = date("g:i:s A");
+	$day = date("l");
+
 
 
 
